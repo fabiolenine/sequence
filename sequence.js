@@ -2,7 +2,7 @@ var express = require('express');
 var http    = require('http')
 var io      = require('socket.io')(http);
 var vhost   = require('vhost');
-var socket  = require('./public/javascripts/volatilechat/socket.js');
+var socket  = require('./public/javascripts/socket.js');
 
 var app     = express();
 
