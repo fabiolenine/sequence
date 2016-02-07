@@ -8,7 +8,7 @@ var app     = express();
 
 app.use(vhost('sequence.lenines.com',app));
 
-app.listen(80);
+app.listen(8080);
 //https.createServer(options, app).listen(443);
 
 app.use(express.static('public'));
